@@ -1,0 +1,43 @@
+{
+  "name": "rehype-img-figure",
+  "version": "0.1.0",
+  "description": "A rehype plugin to add figure and figcaption for image",
+  "author": "Weiliang Liu <lwltinylight@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wei-light/rehype-img-figure.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wei-light/rehype-img-figure/issues"
+  },
+  "homepage": "https://github.com/wei-light/rehype-img-figure#readme",
+  "keywords": [
+    "unified",
+    "markdown",
+    "rehype",
+    "rehype-plugin",
+    "image",
+    "img",
+    "figure",
+    "figcaption"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "hast": "^1.0.0",
+    "hastscript": "^7.2.0",
+    "unified": "^10.1.2",
+    "unist-util-visit": "^4.1.2"
+  }
+}

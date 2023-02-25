@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "strict": true,
+    "declaration": true,
+    "module": "nodenext"
+  },
+  "files": ["index.ts"]
+}
